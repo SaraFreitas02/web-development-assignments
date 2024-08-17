@@ -1,0 +1,44 @@
+body {
+    height: 2000px; 
+}
+
+nav {
+    background-color: rgb(240, 180, 172);
+    border: solid 1px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+section {
+    background-color: rgb(240, 180, 172);
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px black;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#dropdown-menu {
+    box-shadow: 2px 2px 2px black;
+}
+
+.navbar-scrollaway {
+    transition: top 0.3s;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar-hidden {
+    top: -70px;
+}
+
+.header-space {
+    height: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
